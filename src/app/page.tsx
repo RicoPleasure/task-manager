@@ -9,9 +9,9 @@ export default async function Home() {
   const data = await res.json();
   return (
     <>
-      <div className="h-[89vh] flex" bg-pink-300>
+      <div className="h-screen flex" bg-pink-300>
           <ControlPanel />
-          <div>
+          <div className="w-[100%]">
             <TakeNote />  
             <NotesContainer />    
           </div>
