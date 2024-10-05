@@ -1,5 +1,4 @@
-import { link } from "fs"
-import Link from "next/link"
+import Link from 'next/link'
 
 export default async function ControlPanel() {
     const linkStyle = "h-[40px] flex bg-[var(--secondary)] hover:bg-[var(--primary)] rounded-[30px] text-center text-[var(--primary)] hover:text-[var(--secondary)] flex place-items-center place-content-center transition-all transition-[2s] hover:border-[1px] hover:border-[var(--secondary)] mb-[7px]" 
